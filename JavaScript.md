@@ -28,7 +28,7 @@ function baz(fum, bar) {
 }
 ```
 
-Use `this` within jQuery callbacks to reffer to current element.
+Use `this` within jQuery callbacks to refer to current element.
 
 ```js
 // Bad example.
@@ -42,4 +42,3 @@ $('a').click(function(e) {
 });
 
 ```
-
