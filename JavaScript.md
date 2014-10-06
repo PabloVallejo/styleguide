@@ -19,24 +19,24 @@ Add a space after function closing parenthesis.
 ```js
 // Bad example.
 function baz(fum, bar){
-	  // Do stuff...
+    // Do stuff...
 }
 
 // Good example.
 function baz(fum, bar) {
-		// Do stuff...
+    // Do stuff...
 }
 ```
 
 ```js
 // Bad example.
 $('a').click(function(e) {
-		$(e.target).hide();
+    $(e.target).hide();
 });
 
 // Good example.
 $('a').click(function(e) {
-		$(this).hide();
+    $(this).hide();
 });
 
 ```
