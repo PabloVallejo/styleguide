@@ -11,7 +11,7 @@ var stars_counter = 10;
 var starsCounter = 10;
 ```
 
-# Function declaration.
+## Function declaration.
 
 Add a space after function closing parenthesis.
 
@@ -27,6 +27,8 @@ function baz(fum, bar) {
     // Do stuff...
 }
 ```
+
+Use `this` within jQuery callbacks to reffer to current element.
 
 ```js
 // Bad example.
