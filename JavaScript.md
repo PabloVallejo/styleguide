@@ -11,6 +11,12 @@ var stars_counter = 10;
 var starsCounter = 10;
 ```
 
+## Reserved words.
+
+Avoid using these words in variables and functions:
+
+`event`, `native`, `class` and other JavaScript [reserved words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Reserved_keywords_as_of_ECMAScript_6).
+
 ## Function declaration.
 
 Add a space after function closing parenthesis.
@@ -28,7 +34,7 @@ function baz(fum, bar) {
 }
 ```
 
-Use `this` within jQuery callbacks to reffer to current element.
+Use `this` within jQuery callbacks to refer to current element.
 
 ```js
 // Bad example.
